@@ -22,21 +22,21 @@ It combines web scraping, NLP, LLM-based summarization, and analytics into a uni
 ## 🏗️ System Architecture
 
 User Input  
-   ↓  
+      ↓  
 Router Agent (decides task: scrape or search)  
-   ↓  
+      ↓  
 Scraper Agent (Selenium-based web scraping)  
-   ↓  
+      ↓  
 Processing Agent (content extraction & cleaning)  
-   ↓  
+      ↓  
 Decision Agent (content quality evaluation)  
-   ↓  
+      ↓  
 Insight Agent (NLP entity extraction + LLM summarization)  
-   ↓  
+      ↓  
 Storage (CSV / data persistence)  
-   ↓  
+      ↓  
 Dashboard (Streamlit analytics & visualization)  
-   ↓  
+      ↓  
 RAG-like Retrieval (search over past data)
 
 ---
@@ -77,11 +77,16 @@ streamlit run app.py
 ## 📁 Project Structure
 
 project-root/
+|
 ├── app.py # Main Streamlit application
+|
 ├── requirements.txt # Dependencies
+|
 ├── README.md # Project documentation
+|
 ├── data/
 │ └── results.csv # Stored outputs (auto-generated)
+|
 └── .gitignore
 
 ---
