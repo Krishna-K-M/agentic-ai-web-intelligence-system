@@ -279,7 +279,7 @@ if st.button("Run") and url:
 
             # -------- DASHBOARD -------- #
 
-            end = time.time()  # ✅ FIXED
+            end = time.time()  
 
             st.markdown("---")
             st.subheader("📊 Insights Dashboard")
