@@ -1,13 +1,13 @@
-# 🧠 Agentic AI Web Intelligence & Data Analytics System
+# Agentic AI Web Intelligence & Data Analytics System
 
-## 🚀 Overview
+## Overview
 This project is a multi-agent AI system that extracts, evaluates, and analyzes web content to generate structured insights.
 
 It combines web scraping, NLP, LLM-based summarization, and analytics into a unified intelligent pipeline. The system also supports retrieval-based querying (RAG-like) over previously processed data.
 
 ---
 
-## 🧠 Key Features
+## Key Features
 - Multi-agent architecture (Router, Scraper, Processing, Decision, Insight)
 - Intelligent web scraping using Selenium + BeautifulSoup
 - NLP-based entity extraction using spaCy
@@ -19,7 +19,7 @@ It combines web scraping, NLP, LLM-based summarization, and analytics into a uni
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 User Input  
       ↓  
@@ -41,12 +41,12 @@ RAG-like Retrieval (search over past data)
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 Python, Streamlit, Selenium, BeautifulSoup, spaCy, Ollama, Pandas, Power BI
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Install dependencies
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ python -m spacy download en_core_web_sm
 
 ---
 
-## 🤖 Ollama Setup
+## Ollama Setup
 
 Install Ollama from: https://ollama.com
 
